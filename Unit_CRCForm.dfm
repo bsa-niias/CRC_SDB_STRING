@@ -1,9 +1,10 @@
 object CRCForm: TCRCForm
-  Left = 401
-  Top = 448
-  Width = 731
-  Height = 164
+  Left = 272
+  Top = 382
+  BorderStyle = bsDialog
   Caption = #1042#1067#1063#1048#1057#1051#1045#1053#1048#1045' '#1050#1054#1053#1058#1056#1054#1051#1068#1053#1054#1049' '#1057#1059#1052#1052#1067' '#1057#1058#1056#1054#1050#1048' (SDB)'
+  ClientHeight = 137
+  ClientWidth = 723
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -37,12 +38,12 @@ object CRCForm: TCRCForm
   object Edit1: TEdit
     Left = 112
     Top = 24
-    Width = 601
+    Width = 585
     Height = 21
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 544
+    Left = 528
     Top = 80
     Width = 171
     Height = 25
